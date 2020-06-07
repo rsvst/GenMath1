@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/startpage_bg"
+    android:focusableInTouchMode="true"
+    android:fitsSystemWindows="true"
+    tools:layout_editor_absoluteY="81dp"
+    tools:layout_editor_absoluteX="0dp">
+    tools:context="com.example.rsvst.genmath.MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        app:srcCompat="@drawable/logo"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.8"
+        android:adjustViewBounds="true"
+        android:minWidth="50dp"
+        android:minHeight="50dp"
+        android:scaleType="fitCenter"
+        android:padding="60dp"
+        android:layout_above="@+id/btnRead" />
+
+    <Button
+        android:id="@+id/btnRead"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:alpha="0.8"
+        android:background="@android:color/background_light"
+        android:padding="5dp"
+        android:text="READ"
+        android:textColor="@color/colorAccent"
+        android:textSize="18dp"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="373dp"
+        android:layout_above="@+id/btnQuiz"
+        android:layout_alignStart="@+id/btnQuiz"
+        android:layout_marginBottom="10dp" />
+
+    <Button
+        android:id="@+id/btnQuiz"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:alpha="0.8"
+        android:background="@android:color/background_light"
+        android:padding="5dp"
+        android:text="QUIZ"
+        android:textColor="@color/colorAccent"
+        android:textSize="18dp"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="373dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="28dp" />
+
+
+</RelativeLayout>

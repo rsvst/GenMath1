@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/startpage_bg"
+    android:focusableInTouchMode="true"
+    tools:context="com.example.rsvst.genmath.LaunchApp"
+    android:fitsSystemWindows="true">
+
+
+<ImageView
+    android:id="@+id/imageView2"
+    app:srcCompat="@drawable/logo"
+    android:layout_centerVertical="true"
+    android:layout_centerHorizontal="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alpha="0.8"
+    android:adjustViewBounds="true"
+    android:minWidth="50dp"
+    android:minHeight="50dp"
+    android:scaleType="fitCenter"
+    android:padding="60dp"
+    />
+
+</RelativeLayout>
